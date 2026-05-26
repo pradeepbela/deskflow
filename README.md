@@ -9,8 +9,8 @@ A full-stack MERN application for support ticket management with SLA tracking, s
 
 ## 🚀 Live Demo
 
-- **Frontend:** `<your-netlify-url>`
-- **Backend API:** `<your-render-url>`
+- **Frontend:** https://frabjous-lamington-b54757.netlify.app
+- **Backend API:** https://deskflow-3oo4.onrender.com
 
 ---
 
