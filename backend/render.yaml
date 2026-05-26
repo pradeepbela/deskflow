@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: deskflow-api
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false   # Set this manually in Render dashboard
+      - key: FRONTEND_URL
+        sync: false   # Set to your Netlify URL after deploying frontend
